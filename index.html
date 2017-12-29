@@ -12,8 +12,8 @@
     text-align:center;
     border-bottom:1.5px solid grey;
     margin:0px;
-    padding-bottom:15px;
-    padding-top:15px;
+    padding-bottom:20px;
+    padding-top:20px;
   }
   ol{
     border-right:1px solid black;
@@ -32,40 +32,60 @@
     display: grid;
     grid-template-columns:470px 1fr;
   }
+  #forthemargin{
+    margin-bottom:-50px;
+    margin-left:30px;
+  }
+  #forthemargin2{
+    margin-left:20px;
+  }
+  #forthealign{
+    text-align:right;
+  }
+  li{
+    font-size:20px;
+  }
+  span{
+    font-size:35px;
+  }
+
   </style>
 </head>
 
 <body>
   <div id="sub">
-  <h1><a href="index.html" title="welcome to my space">숲숩숲</a></h1>
+  <img src="tree.JPG" width="35px;">
+  <span><a href="index.html" title="welcome to my space">숲숩숲</a></span>
+  <img src="tree.JPG" width="35px;">
   </div>
   <div>
     <p><br>에 온 것을 환영해(･ิω･ิ) <br><br>
   보고 듣고 느낀 것을 되새기기 위해 만든 공간입니다. 나의 관심사를 추려 기록합니다.
      <br>아직 뭘 성대하게 하겠다는 계획이 없어서 별 볼 일 없는 페이지입니다.
-  </p></div>
+  </p></div><br>
 
 <div id="grid">
+
   <div>
-    <img src="size_down.JPG">
+    <img src="size_down.JPG" style="width:470px;">
   </div>
+
   <div>
-    <h1>Contents</h1>
+    <h1 id="forthemargin">Contents</h1>
     <ul>
-     <li><a href="book.html">Book</a></li>
-     <li><a href="movie.html">Movie</a></li>
-     <li><a href="polling.html">Polling</a></li>
-    </ul>
-  </div>
+    <div id="forthemargin2" style="transform:rotate(-6deg)"><br><br>
+        <li><a href="book.html"><div style="width:500px;background-color:green">Book</div></a></li><br><br>
+        <li><a href="movie.html"><div style="width:650px;background-color:rgba(150, 150, 150, 150.3)">Movie</div></a></li><br><br>
+        <li><a href="polling.html"><div style="width:900px;background-color:rgba(120, 0, 210, 0.7)">Polling</div></a></li><br><br>
+   </div>
+   </ul>
+ </div>
 
 </div>
 
-<li><a href="book.html"><div style="width:500px;background-color:green">Book</div></a></li>
-<li><a href="movie.html"><div style="width:700px;background-color:rgba(150, 150, 150, 150.3)">Movie</div></a></li>
-<li><a href="polling.html"><div style="width:1150px;background-color:rgba(120, 0, 210, 0.7)">Polling</div></a></li>
-  <div style="transform:rotate(6deg)"></div>
+
   <br>
-  <p><h1 style="margin-left:50px;"><a href="https://www.instagram.com/subi_dubab/" target="_blank" title="MY INSTAGRAM">More Pictures here</a></h1></p>
+  <p><h1 id="forthealign"><a href="https://www.instagram.com/subi_dubab/" target="_blank" title="MY INSTAGRAM">☞More Pictures here</a></h1></p>
 <body/>
 
 </html>

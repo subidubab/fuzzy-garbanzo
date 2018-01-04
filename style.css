@@ -1,0 +1,31 @@
+a {
+    text-decoration: none;
+    color:black;
+  }
+#sub{
+    text-align:center;
+    border-bottom:1.5px solid grey;
+    margin:0px;
+    padding-bottom:20px;
+    padding-top:20px;
+  }
+  span{
+    font-size:35px;
+  }
+  .gallery{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    border:grey solid 1.5px;
+  }
+  .gallery div{
+    margin:auto;
+  }
+  .desc{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    border:grey solid 1.5px;
+    margin:0px;
+  }
+  .desc div{
+    margin:auto;
+  }

@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+p {
+    font-size : 20px;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 4px;
+    line-height : 180%;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+h4{
+color: slateblue;
+}
+#sub{
+  text-align:center;
+  border-bottom:1.5px solid grey;
+  margin:0px;
+  padding-bottom:20px;
+  padding-top:20px;
+  font-size: 40px;
+}
